@@ -4,126 +4,126 @@
   <VRTRasterBand dataType="Byte" band="1">
     <ColorInterp>Gray</ColorInterp>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h27v08.006.2016072005652.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h27v08.006.2017233092034.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h27v09.006.2016072005653.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h27v09.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="0" yOff="1200" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h27v10.006.2016072005650.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h27v10.006.2017233092035.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="0" yOff="2400" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h28v08.006.2016072005648.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h28v08.006.2017233092034.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="1200" yOff="0" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h28v09.006.2016072005650.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h28v09.006.2017233092035.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="1200" yOff="1200" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h28v10.006.2016072005651.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h28v10.006.2017233092044.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="1200" yOff="2400" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h29v08.006.2016072005647.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h29v08.006.2017233092040.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="2400" yOff="0" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h29v09.006.2016072005648.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h29v09.006.2017233092041.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="2400" yOff="1200" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h29v10.006.2016072005647.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h29v10.006.2017233092038.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="2400" yOff="2400" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h30v08.006.2016072005657.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h30v08.006.2017233092036.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="3600" yOff="0" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h30v09.006.2016072005658.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h30v09.006.2017233092037.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="3600" yOff="1200" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h30v10.006.2016072005701.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h30v10.006.2017233092053.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="3600" yOff="2400" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h31v08.006.2016072005657.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h31v08.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="4800" yOff="0" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h31v09.006.2016072005700.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h31v09.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="4800" yOff="1200" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h31v10.006.2016072005704.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h31v10.006.2017233092042.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="4800" yOff="2400" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h32v08.006.2016072005704.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h32v08.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="6000" yOff="0" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h32v09.006.2016072005703.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h32v09.006.2017233092036.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
       <DstRect xOff="6000" yOff="1200" xSize="1200" ySize="1200" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A1.A2011214.h32v10.006.2016072005704.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h32v10.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:QC_Day</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
       <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
