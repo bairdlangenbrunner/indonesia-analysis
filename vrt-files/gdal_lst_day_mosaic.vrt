@@ -1,0 +1,152 @@
+<VRTDataset rasterXSize="7200" rasterYSize="3600">
+  <SRS>PROJCS["unnamed",GEOGCS["Unknown datum based upon the custom spheroid",DATUM["Not specified (based on custom spheroid)",SPHEROID["Custom spheroid",6371007.181,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],PROJECTION["Sinusoidal"],PARAMETER["longitude_of_center",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["Meter",1]]</SRS>
+  <GeoTransform>  1.0007554677898999e+07,  9.2662543313875040e+02,  0.0000000000000000e+00,  1.1119505197670001e+06,  0.0000000000000000e+00, -9.2662543313888875e+02</GeoTransform>
+  <VRTRasterBand dataType="UInt16" band="1">
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h27v08.006.2017233092034.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h27v09.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="0" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h27v10.006.2017233092035.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="0" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h28v08.006.2017233092034.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="1200" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h28v09.006.2017233092035.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="1200" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h28v10.006.2017233092044.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="1200" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h29v08.006.2017233092040.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="2400" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h29v09.006.2017233092041.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="2400" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h29v10.006.2017233092038.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="2400" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h30v08.006.2017233092036.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="3600" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h30v09.006.2017233092037.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="3600" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h30v10.006.2017233092053.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="3600" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h31v08.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="4800" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h31v09.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="4800" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h31v10.006.2017233092042.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="4800" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h32v08.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="6000" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h32v09.006.2017233092036.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="6000" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"../modis_data/MOD11A1.A2017232_data/MOD11A1.A2017232.h32v10.006.2017233092033.hdf":MODIS_Grid_Daily_1km_LST:LST_Day_1km</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="UInt16" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="6000" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
