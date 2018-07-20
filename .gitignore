@@ -2,6 +2,7 @@
 ################
 *.npy
 *.mp4
+cartopy/
 
 # Compiled source #
 ###################
