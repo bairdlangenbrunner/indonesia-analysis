@@ -5,6 +5,7 @@
 *.nc
 *.vrt
 cartopy/
+.ipynb_checkpoints/
 
 # Compiled source #
 ###################
