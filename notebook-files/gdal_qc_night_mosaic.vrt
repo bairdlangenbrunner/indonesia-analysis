@@ -1,0 +1,152 @@
+<VRTDataset rasterXSize="7200" rasterYSize="3600">
+  <SRS>PROJCS["unnamed",GEOGCS["Unknown datum based upon the custom spheroid",DATUM["Not specified (based on custom spheroid)",SPHEROID["Custom spheroid",6371007.181,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],PROJECTION["Sinusoidal"],PARAMETER["longitude_of_center",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["Meter",1]]</SRS>
+  <GeoTransform>  1.0007554677898999e+07,  9.2662543313875040e+02,  0.0000000000000000e+00,  1.1119505197670001e+06,  0.0000000000000000e+00, -9.2662543313888875e+02</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h27v08.006.2018169142822.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h27v09.006.2018169142414.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="0" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h27v10.006.2018169142512.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="0" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h28v08.006.2018169142640.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="1200" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h28v09.006.2018169142504.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="1200" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h28v10.006.2018169142653.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="1200" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h29v08.006.2018169142706.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="2400" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h29v09.006.2018169142737.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="2400" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h29v10.006.2018169142803.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="2400" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h30v08.006.2018169142754.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="3600" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h30v09.006.2018169142841.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="3600" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h30v10.006.2018169142537.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="3600" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h31v08.006.2018169142742.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="4800" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h31v09.006.2018169142731.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="4800" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h31v10.006.2018169142750.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="4800" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h32v08.006.2018169142811.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="6000" yOff="0" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h32v09.006.2018169142822.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="6000" yOff="1200" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">HDF4_EOS:EOS_GRID:"/beegfs/DATA/pritchard/blangenb/MODIS_ARCHIVE/MOD11A2/MOD11A2.A2018161.h32v10.006.2018169142739.hdf":MODIS_Grid_8Day_1km_LST:QC_Night</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1200" RasterYSize="1200" DataType="Byte" BlockXSize="1200" BlockYSize="833" />
+      <SrcRect xOff="0" yOff="0" xSize="1200" ySize="1200" />
+      <DstRect xOff="6000" yOff="2400" xSize="1200" ySize="1200" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
